@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width : 480px) {
+    .mortage-calc {
+        width: 100dvw;
+        height: 100dvh;
+    }
+
+    .calculation {
+        background-color: white;
+        width: 100dvw;
+        padding: 3.4rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+        margin-bottom: 1em;
+    }
+
+    .calculation>p {
+        font-size: 2rem;
+        color: gray;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-bottom: 2.5em;
+    }
+
+    input[type=text] {
+        background-color: aliceblue;
+        width: calc(100dvw - 35dvw);
+        padding: 0.7em;
+    }
+
+    form>div {
+        margin-bottom: 1em;
+    }
+
+    label {
+        color: gray;
+    }
+
+    .mortagetype {
+        width: calc(100dvw - 35dvw);
+        margin-bottom: 1.2em;
+        border: 1px solid black;
+        padding: 1em;
+    }
+
+    .mortagetype>label {
+        font-size: 1.4em;
+        color: black;
+    }
+
+    .calculatebtn>input[type=submit] {
+        width: calc(100dvw - 35dvw);
+        padding: 1em;
+        border-radius: 10em;
+        background-color: yellow;
+        color: black;
+        display: flex;
+        font-weight: 700;
+
+    }
+
+    .result {
+        background-color: hsl(202, 55%, 16%);
+        padding: 3em;
+    }
+
+    .result-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    h6 {
+        color: white;
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    .result-text>p {
+        color: white;
+        width: 19em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .calculatebtn>img {
+        position: relative;
+        left: 3em;
+        top: 2.5em;
+        font-size: 0.9em;
+    }
+}
